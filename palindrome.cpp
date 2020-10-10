@@ -1,3 +1,5 @@
+//determine if string is palindrome or not
+
 #include <iostream>
 //#include <cstring>
 using namespace std; 
