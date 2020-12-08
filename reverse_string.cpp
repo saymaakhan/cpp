@@ -1,5 +1,4 @@
 //reverse a string 
-
 #include <iostream>
 using namespace std;
 
@@ -12,17 +11,14 @@ int main() {
 }
 
 void string_backwards(char* sPtr) {
-
 	int stringlength = 0;
 
 	while (*sPtr != '\0') {
 		++stringlength;
 		++sPtr;
 	}
-
 	for (int i = stringlength; i > 0; --i) {
 		cout << *(sPtr - 1);
 		--sPtr;
 	}
-
 }
